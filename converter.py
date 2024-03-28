@@ -4,3 +4,6 @@ value = int(input("Value: "))
 
 if km_or_m == "km":
 	print(f"Mile: {value / 1.609344}")
+
+elif km_or_m == "mile":
+	print(f"Km: {value * 1.609344}")
